@@ -1,0 +1,24 @@
+services:
+  location:
+    image: jiujiuyao/location:latest 
+    container_name: hack_location        
+    restart: unless-stopped               
+    networks:
+      hacker:
+        ipv4_address: 172.66.66.2        
+    environment:
+      - PORT=5005                
+      - GO_URL=/static/js/coffee.html
+      - ERROR_URL=/static/js/coffee2.html
+    volumes:
+      - ./routes.py:/app/routes.py        
+      - ./templates/:/app/templates/     
+      - ./locations/:/app/locations/ 
+    working_dir: /app                    
+    command: ['uvicorn', 'app:app', '--host', '0.0.0.0', '--port', '5005'] 
+    ports:
+      - "5005:5005"                      
+
+networks:
+  hacker:
+    external: true                        
