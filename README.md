@@ -1,54 +1,49 @@
-以下是一个简单的 README 说明书示例，用于介绍你的 Location 工具：
 
-```markdown
-# Location - IP 定位工具
+# 🌍 Location - IP 定位工具
 
-## 简介
+## ✨ 用途
 
-Location 是一个强大的 IP 定位工具，旨在帮助用户快速、准确地获取访问者的地理位置。通过简单易用的界面，您可以轻松识别用户的地理信息，为数据分析和市场决策提供支持。
+Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确地获取访问者的地理位置。
 
-## 功能
+## ⚙️ 安装使用
 
-- **实时定位**：快速准确地获取用户的 IP 地址定位，支持全球范围内的查询。
-- **安全隐私**：我们重视用户隐私，确保数据安全，绝不泄露用户信息。
-- **数据分析**：提供详细的地理数据分析，帮助您了解用户分布和行为。
+   1.**下载 docker 镜像**
 
-## 安装
+   ~~~bash
+   docker pull jiujiuyao/location:lastest
+   ~~~
 
-1. 克隆仓库：
-   ```bash
-   git clone https://github.com/Jiujiuwhoami/location.git
-   ```
-2. 进入项目目录：
-   ```bash
-   cd location
-   ```
-3. 安装依赖：
-   ```bash
-   npm install
-   ```
+   2.**通过 git 下载配置文件**
 
-## 使用
+   3.**启动 docker**
 
-1. 启动工具：
-   ```bash
-   npm start
-   ```
-2. 打开浏览器并访问 `http://localhost:5000`，即可使用 Location 工具进行 IP 定位。
+   ~~~bash
+   docker-compose up -d
+   ~~~
 
-## 贡献
+## ⚠️ 访问工具
+
+   访问 `http://localhost:5005/location`，即可使用 Location 工具进行 IP 定位。
+
+## 💡 举例
+
+
+## 🤝 贡献
 
 欢迎任何人参与贡献！如果您有改进建议或发现错误，请提交 issue 或 pull request。
 
-## 许可证
+## 📄 许可证
 
 此项目采用 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
 
-## 联系我们
+## 📬 联系我们
 
 如有问题，请通过以下方式联系：
-- GitHub: [Jiujiuwhoami](https://github.com/Jiujiuwhoami)
-- 邮箱: your_email@example.com
-```
 
-你可以根据实际情况调整内容，比如安装步骤、使用说明等。如果需要进一步定制，请告诉我！
+- **GitHub**: [Jiujiuwhoami](https://github.com/Jiujiuwhoami)
+
+## 声明
+
+ - 工具仅作为实验学习使用，禁止用于非法活动。
+ - 请自觉遵守国家网络安全相关法律法规，本项目作者不限制使用者对项目的更改与应用，不对使用者造成的后果负责。
+ - 本项目作者保留对项目的解释权。
