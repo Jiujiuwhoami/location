@@ -78,8 +78,8 @@ Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确�
      hacker:
        external: true                        
    ~~~
-   - GO_URL=https://baidu.com # 修改成当请求成功时候的跳转链接
-   - ERROR_URL=https://bing.cn # 修改成当请求失败时候的跳转链接
+   -- GO_URL=https://baidu.com # 修改成当请求成功时候的跳转链接
+   -- ERROR_URL=https://bing.cn # 修改成当请求失败时候的跳转链接
 
    * 如需替换前端路由或入口文件，则修改 `routes.py`
 
@@ -99,8 +99,8 @@ Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确�
    async def index(request: Request):
        return templates.TemplateResponse("index.html", {"request": request, "go_url": GO_URL, "error_url": ERROR_URL})
    ~~~
-   - 修改 `@router.get("/location", response_class=HTMLResponse)` 路由 `"/location"`
-   - 修改 `return templates.TemplateResponse("index.html", {"request": request, "go_url": GO_URL, "error_url": ERROR_URL})` 入口文件 `"index.html"`
+   -- 修改 `@router.get("/location", response_class=HTMLResponse)` 路由 `"/location"`
+   -- 修改 `return templates.TemplateResponse("index.html", {"request": request, "go_url": GO_URL, "error_url": ERROR_URL})` 入口文件 `"index.html"`
 
    * 重新启动 `docker`
 
@@ -118,7 +118,6 @@ Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确�
 
 - **Wechat**: `jiujiuwhoami`
 
-                        --------------------------------------------------------------
 
 ## 开源软件免责声明
 
@@ -141,4 +140,3 @@ Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确�
 
 使用本软件即表示您接受本免责声明。如果您不同意以上条款，请勿使用本软件。
 
-                        --------------------------------------------------------------
