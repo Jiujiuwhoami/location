@@ -5,11 +5,11 @@
 
 Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确地获取访问者的地理IP位置。
 
-[![docker](https://imgur.la/images/2024/10/13/docker.th.gif)](https://imgur.la/image/docker.RTgUL)
+[![docker](https://imgur.la/images/2024/10/13/docker.md.gif)](https://imgur.la/image/docker.RTgUL)
 
-[![ngrok](https://imgur.la/images/2024/10/13/ngrok.th.gif)](https://imgur.la/image/ngrok.RTuVF)
+[![ngrok](https://imgur.la/images/2024/10/13/ngrok.md.gif)](https://imgur.la/image/ngrok.RTuVF)
 
-[![log](https://imgur.la/images/2024/10/13/log.th.gif)](https://imgur.la/image/log.RTIY9)
+[![log](https://imgur.la/images/2024/10/13/log.md.gif)](https://imgur.la/image/log.RTIY9)
 
 ## ⚙️ 安装使用
 
