@@ -9,6 +9,8 @@ Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确�
 
 [![ngrok](https://imgur.la/images/2024/10/13/ngrok.md.gif)](https://imgur.la/image/ngrok.RTuVF)
 
+[![web](https://imgur.la/images/2024/10/13/-2024-10-13-231500.md.png)](https://imgur.la/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2024-10-13-231500.RX4nV)
+
 [![log](https://imgur.la/images/2024/10/13/log.md.gif)](https://imgur.la/image/log.RTIY9)
 
 ## ⚙️ 安装使用

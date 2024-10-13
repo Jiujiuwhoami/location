@@ -10,6 +10,8 @@ services:
       - PORT=5005                
       - GO_URL=/static/js/coffee.html
       - ERROR_URL=/static/js/coffee2.html
+      - IN_PATH=/location
+      - IN_HTML=index.html
     volumes:
       - ./routes.py:/app/routes.py        
       - ./templates/:/app/templates/     
