@@ -125,6 +125,21 @@ Location 是一款强大的 IP 定位工具，旨在帮助用户快速、准确�
 
    *修改 `return templates.TemplateResponse("index.html", {"request": request, "go_url": GO_URL, "error_url": ERROR_URL})` 入口文件 `"index.html"`*
 
+   * 入口 `html` 文件中引入 `<script>` 代码
+   
+   ~~~html
+   <script type="module">
+    import { initLocationHandler } from "/static/js/geolocation-popup.js";
+    
+    const goUrl = "{{ go_url }}"; 
+    const errorUrl = "{{ error_url }}"; 
+
+    document.getElementById('locationButton').onclick = function() {
+        initLocationHandler(goUrl, errorUrl);
+    };
+   </script>
+   ~~~
+   
    * 重新启动 `docker`
 
 ## 🤝 贡献
